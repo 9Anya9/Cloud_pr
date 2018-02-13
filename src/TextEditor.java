@@ -16,7 +16,7 @@ class TextEditor extends JFrame {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private JTextArea area = new JTextArea(20,120); //робоча область
+	private JTextArea area = new JTextArea(40,120); //робоча область
 	private JFileChooser dialog = new JFileChooser(System.getProperty("user.dir")); //дозволяє вибирати файл з поточної робочої директорії
 	private String currentFile = "Goroscop"; //назва файлу
 	private boolean changed = false; //стани перемикачів
